@@ -1,2 +1,2 @@
 FROM ghcr.io/sdr-enthusiasts/docker-adsb-ultrafeeder
-run ln /proc/mounts /etc/mtab
+run ln -s /proc/mounts /etc/mtab
